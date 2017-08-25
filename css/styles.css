@@ -1,43 +1,72 @@
-header {
-  background-image: url(../img/roll8.jpg);
-  height: 500px;
-  font-size: 50px;
-  font-style: italic;
-  background: cover;
-}
+  header {
+    background-image: url(../img/roll8.jpg);
+    height: 500px;
+    font-size: 50px;
+    font-style: italic;
+    background: cover;
+  }
 
-.play {
-  background-color: #1a000d;
-  height: 200px;
-}
+  .play {
+    background-color: #1a000d;
+    height: 200px;
+  }
 
-img {
-  position: absolute;
-  height: 170px;
-  width: 300px;
-}
+  img {
+    position: absolute;
+    height: 180px;
+    width: 345px;
+  }
 
-.pic {
-  float: right;
-}
+  .pic {
+    float: right;
+  }
 
-.txt {
-  color: #4d0039;
-}
+  .txt {
+    color: #4d0039;
+  }
 
-h1 {
-  font-size: 70px;
-  text-align: center;
-}
+  h1 {
+    font-size: 70px;
+    text-align: center;
+  }
 
-#dice {
-  font-size: 20px;
-}
+  #dice {
+    font-size: 18px;
+  }
 
-.one {
-  text-align: center;
-}
+  .one {
+    text-align: center;
+  }
 
-.two {
-  text-align: center;
-}
+  .two {
+    text-align: center;
+  }
+
+  #roll {
+    font-style: italic;
+  }
+
+  #hold {
+    font-style: italic;
+  }
+
+  .sel {
+    color: #b300b3;
+  }
+
+  .add {
+    background-color: #1a000d;
+    height: 200px;
+  }
+
+  h4 {
+    color: #b300b3;
+  }
+
+  h3 {
+    color: #b300b3;
+  }
+
+  .picc {
+    float: right;
+  }
