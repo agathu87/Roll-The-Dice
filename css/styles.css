@@ -1,7 +1,43 @@
 header {
   background-image: url(../img/roll8.jpg);
-  height: 300px;
+  height: 500px;
   font-size: 50px;
   font-style: italic;
+  background: cover;
+}
+
+.play {
+  background-color: #1a000d;
+  height: 200px;
+}
+
+img {
+  position: absolute;
+  height: 170px;
+  width: 300px;
+}
+
+.pic {
+  float: right;
+}
+
+.txt {
+  color: #4d0039;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+#dice {
+  font-size: 20px;
+}
+
+.one {
+  text-align: center;
+}
+
+.two {
   text-align: center;
 }

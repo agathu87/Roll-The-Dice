@@ -11,36 +11,63 @@
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <div class="row">
-        <h1><strong>ROLL-THE-DICE!</strong></h1>
+  <div class="container">
+
+    <header>
+
+
+      <div class="container">
+        <div class="row txt">
+          <h1><strong>ROLL-THE-DICE!</strong></h1>
+        </div>
+
       </div>
 
-    </div>
-  </header>
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h3><strong>Select Player</strong></h3>
+    </header>
+    <section class="play">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 sel">
+            <h3><strong>Select Player:</strong></h3>
 
 
-          <div id="dice">
-            <form>
-              <div class="form">
-                <label for="player1">Player 1</label>
-                <input id="player1" class="form-control" type="text">
-              </div>
-              <div class="form">
-                <label for="player2">Player 2</label>
-                <input id="player2" class="form-control" type="text">
-              </div>
+          </div>
+          <div class="col-md-2 one">
+
+            <div id="dice">
+              <form>
+                <div class="form">
+                  <label for="player1">Player 1</label>
+                  <input id="player1" class="form" type="checkbox">
+                </div>
+                <div>
+                  <button type="button" name="button">Roll!</button>
+                </div>
+            </div>
+            </form>
+          </div>
+          <div class="col-md-2 two">
+            <div id="dice">
+              <form>
+                <div class="form">
+                  <label for="player2">Player 2</label>
+                  <input id="player2" class="form" type="checkbox">
+                </div>
+                <div>
+                  <button type="button" name="button">Hold!</button>
+                </div>
+            </div>
+            </form>
+          </div>
+
+          <div class="col-md-4 pic">
+            <img src="img/roll8.jpg" alt="">
+
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 </body>
+</div>
 
 </html>
