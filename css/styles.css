@@ -70,3 +70,12 @@
   .picc {
     float: right;
   }
+
+  .score {
+    background-color: #1a000d;
+    height: 200px;
+  }
+
+  .dc {
+    color: #b300b3;
+  }
